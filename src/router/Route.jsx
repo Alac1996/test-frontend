@@ -1,11 +1,16 @@
-import { createBrowserRouter } from "react-router-dom";
-import ProductList from "../ProductList";
-import { RouterProvider } from "react-router";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ProductList from "../pages/ProductList";
+// import { RouterProvider } from "react-router";
+import UploadProduct from "../pages/UploadProduct";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <ProductList />,
+  },
+  {
+    path: "/upload",
+    element: <UploadProduct />,
   },
 ]);
 
