@@ -30,7 +30,7 @@ export default function ProductList() {
         </button>
       </div>
       <div className=" gap-3 justify-center flex items-center">
-        <div className="grid grid-cols-5 gap-10">
+        <div className="grid grid-cols-5 gap-10 ">
           {allProduct.map((el) => (
             <ProductItems key={el.id} productInfo={el} />
           ))}

@@ -109,7 +109,7 @@ export default function UploadProduct() {
           </aside>
         </div>
       </section>
-      <div className="w-full flex flex-col justify-start ml-[860px] mt-9">
+      <div className="w-full flex flex-col justify-start ml-[240px] mt-9">
         <div className="mb-4 max-w-6xl">
           <p className="text-gray-600">Product name</p>
           <input
